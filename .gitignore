@@ -9,6 +9,8 @@ build/
 
 # --- AIDE & Android Code Studio Specifics ---
 .aide/
+.acside/
+.gradle/
 .jks
 *.keystore
 # Keep these if you want to share project settings, 
@@ -16,7 +18,6 @@ build/
 .settings/
 .classpath
 .project
-.acside
 
 # --- Native Code (If applicable) ---
 obj/
