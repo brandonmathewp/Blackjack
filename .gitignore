@@ -1,0 +1,32 @@
+# --- Built Artifacts ---
+bin/
+gen/
+out/
+build/
+*.apk
+*.ap_
+*.dex
+
+# --- AIDE & Android Code Studio Specifics ---
+.aide/
+.jks
+*.keystore
+# Keep these if you want to share project settings, 
+# but usually, local paths in these files break on other devices.
+.settings/
+.classpath
+.project
+.acside
+
+# --- Native Code (If applicable) ---
+obj/
+libs/armeabi*/
+libs/x86*/
+
+# --- OS / Mobile Trash ---
+.DS_Store
+thumbs.db
+.crdownload
+
+# --- Credentials ---
+local.properties
